@@ -10,8 +10,8 @@ As modificações exigidas no item 2 podem ser encontradas no arquivo carvao_sob
 2.5 - Pode ser encontrado na folha de estilo tela.css entre as linhas 92-96
 
 **Integrantes:**
-Dorys	Maria Ferreira Alves 
-Evelyn	Caroline Oliveira do Nascimento
-Alexandra	da Silva Lima
-Izadora	Lima Basílio
-Rafael	Messias dos Santos
+1. Dorys	Maria Ferreira Alves 
+2. Evelyn	Caroline Oliveira do Nascimento
+3. Alexandra	da Silva Lima
+4. Izadora	Lima Basílio
+5. Rafael	Messias dos Santos
