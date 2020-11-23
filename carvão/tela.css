@@ -26,7 +26,7 @@ nav#menu_carvao li{
 }
 
 nav#menu_carvao li:hover{
-    background-color: black;
+    background-color: lightblue;
 }
 
 nav#menu_carvao h1{
@@ -106,6 +106,13 @@ div#interface{
     position: relative;
 }
 
+div#sobre{
+    min-width: 400;
+    margin: 10px auto 100px auto;
+    max-width: 1700px;
+    position: relative;
+    background: url(carvao_personalizado.png);
+}
 
 /* Formatação de imagens*/
 
@@ -121,6 +128,12 @@ img.entrada{
 
 }
 
+picture.centralizado{
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+
+}
 
 img.grande{
     height: auto;
