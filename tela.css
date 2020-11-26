@@ -1,0 +1,229 @@
+/* Formatação do Menu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+nav#menu_carvao{
+    display: block;
+
+}
+
+
+nav#menu_carvao ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+
+}
+
+nav#menu_carvao li{
+    display: inline-block;
+    
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+
+}
+
+nav#menu_carvao li:hover{
+    background-color: black;
+}
+
+nav#menu_carvao h1{
+    display: none;
+
+}
+
+nav#menu_carvao a{
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu_carvao a:hover{
+    color: white;
+
+}
+
+
+/* Formatação de letras*/
+
+h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+p.legenda{
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    line-height: 1.2;
+}
+
+p.rodape{
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F8FF;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+    
+}
+
+ul{
+    list-style: square;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li.topico{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body
+{
+    background-color: #0e1111 !important;
+    background-image: url(./images/carvao_fundo.png);
+}
+
+
+
+/* Formatação da interface*/
+
+div#interface{
+    width: 100%;
+    min-width: 400px;
+    padding: 10px 30px 100px 30px;
+    max-width: 2300px;
+    margin: auto auto;
+    position: relative;
+}
+
+div#sobre{
+    min-width: 400;
+    margin: 10px auto 100px auto;
+    max-width: 1700px;
+    position: relative; 
+}
+
+/* Formatação de imagens*/
+
+ img{
+    height: auto;
+    width: 40%;
+    max-width: 100%
+}
+
+img.entrada{
+    height: auto;
+    min-width: 100%;
+
+}
+
+picture.centralizado{
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+
+}
+
+img.grande{
+    height: auto;
+    width: 25%;
+    max-width: 100%;
+}
+
+/* Formatação do cabeçalho*/
+
+header#cabecalho{
+    border-bottom: 1px white solid;
+    height: 120px;
+    position: relative;   
+
+}
+
+header#cabecalho h1, h2{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+   
+}
+
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+header#cabecalho p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* Formatação do rodapé*/
+
+footer#rodape{
+    
+    border-top: 1px solid white;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background-color: #0e1111;
+    padding: 3px;
+}
+
+/* Formatação da tabela*/
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+th{
+    background-color: grey;
+}
+
+td.zebrada{
+    background-color: white;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 3px solid grey;
+  }
+
+  caption{
+    background-color: grey;
+    font-weight: bolder;
+  }
+
