@@ -26,6 +26,11 @@ edits2:
 5 - Foi adicionado algumas bordas pretas na tabela que indica os integrantes (arquivo tela.css: linhas: 213-216)
 6 - Foi alterado alguns valores que estava na div#interface (arquivo tela.css: linhas: 214-221)
 
+edits3:
+
+1 - Foi adicionado o arquivo questionario.html onde foi adicionado uma atividade utilizando forms como foi pedido no tópico 2.1 (arquivo questionario.html)
+2 - No arquivo sobre.html foi adicionado uma opção de sugestão finalizando assim o tópico 2.1 (arquivo sobre.html: linhas: 67-73)
+
 **Integrantes:**
 1. Dorys	Maria Ferreira Alves 
 2. Evelyn	Caroline Oliveira do Nascimento

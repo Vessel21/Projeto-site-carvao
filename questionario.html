@@ -1,0 +1,193 @@
+<head>
+    <title>Economia</title>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <link rel="stylesheet" type="text/css" href="tela.css"/>
+    <link rel = "icon" href="./images/carvao_img.png"> 
+    </head>
+    
+    <body>
+    <div id="interface">
+      <header id="cabecalho">  
+        <nav id="menu_carvao">
+            <h1>Menu</h1> 
+                <ul>
+                    <li><a href="index.html">Carvão!</a></li>
+                    <li><a href="definicao.html">O que é o carvão</a></li>  
+                    <li><a href="economia.html">Economia</a></li>
+                    <li><a href="info.html">Carvão e Desmatamento</a></li>
+                    <li><a href="saude.html">Carvão e Saúde</a></li>
+                    <li><a href="cuidados.html">Cuidados e Prevenções</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="questionario.html">Questionário</a></li>
+                </ul>
+        </nav>
+        <h1>Questionario! Tente praticar um pouco!</h1>
+    
+    
+    </header>
+	<body>
+        <br>
+        <form name="form1">
+		<p>1)Qual a principal finalidade do uso do carvão mineral?</p>
+		<br>
+		<label><input type="radio" name="questao" value="a" id="a1" /> A) Churrasco</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="b" id="b1" /> B) Eletricidade</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="c" id="c1" /> C) Produção de bijuterias</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="d" id="d1" /> D) Agroindústria</label>
+		<br>
+		<br>
+		</form>
+
+		<form name="form2">
+		<p>2) Como o carvão é formado?</p>
+		<br>
+		<label><input type="radio" name="questao" value="a" id="a2" /> A) Por meio da decomposição da matéria orgânica sem a presença de oxigênio.</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="b" id="a2" /> B) Pode ser cultivado como uma plantação. </label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="c" id="a2" /> C) Por meio da decomposição da matéria inorgânica sem a presença de oxigênio.</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="d" id="a2" /> D) Surge em cavernas.</label>
+		<br>
+		<br>
+		</form>
+
+		<form name="form3">
+		<p>3) Qual é o país que produz mais carvão natural do mundo?</p>
+		<br>
+		<label><input type="radio" name="questao" value="a" id="a3" /> A) Estados Unidos</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="b" id="a3" /> B) Brasil</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="c" id="a3" /> C) Japão</label>
+		<br>
+		<label>
+		<input type="radio" name="questao" value="d" id="a3" /> D) China</label>
+		<br>
+		<br>
+		</form>
+
+        <form name="form4">
+            <p>3) Para quais fins o carvão vegetal pode ser utilizado?</p>
+            <br>
+            <label><input type="radio" name="questao" value="a" id="a3" /> A) Culinária</label>
+            <br>
+            <label>
+            <input type="radio" name="questao" value="b" id="a3" /> B) Eletricidade</label>
+            <br>
+            <label>
+            <input type="radio" name="questao" value="c" id="a3" /> C) Saúde e Estética</label>
+            <br>
+            <label>
+            <input type="radio" name="questao" value="d" id="a3" /> D) Energéticos</label>
+            <br>
+            <br>
+            </form>
+
+            <form name="form5">
+                <p>3) Marque a alternativa que NÃO condiz com cuidados que devem ser tomados ao utilizar o carvão:</p>
+                <br>
+                <label><input type="radio" name="questao" value="a" id="a3" /> A) Não deixar perto de crianças.</label>
+                <br>
+                <label>
+                <input type="radio" name="questao" value="b" id="a3" /> B) Não entrar em contato direto com as mãos.</label>
+                <br>
+                <label>
+                <input type="radio" name="questao" value="c" id="a3" /> C) Não ingerir.</label>
+                <br>
+                <label>
+                <input type="radio" name="questao" value="d" id="a3" /> D) Não colocar nos olhos.</label>
+                <br>
+                <br>
+                </form>
+
+            <form name="form6">
+                    <p>3) Marque a alternativa que NÃO condiz com benefícios para a beleza do carvão vegetal:</p>
+                    <br>
+                    <label><input type="radio" name="questao" value="a" id="a3" /> A) Eliminar marcas de sol da pele.</label>
+                    <br>
+                    <label>
+                    <input type="radio" name="questao" value="b" id="a3" /> B) Higiene bucal.</label>
+                    <br>
+                    <label>
+                    <input type="radio" name="questao" value="c" id="a3" /> C) Controlar oleosidade.</label>
+                    <br>
+                    <label>
+                    <input type="radio" name="questao" value="d" id="a3" /> D) Dar brilho ao cabelo.</label>
+                    <br>
+                    <br>
+                    </form>
+                    <input id="botao" type="submit" value="Enviar" onclick="validarForm()">
+                    <br>
+                    <p id="resultado"></p>
+            
+
+		<script type="text/javascript">
+			//Variaveis
+			var form1;
+			var form2;
+            var form3;
+            var form4;
+            var form5;
+            var form6;
+			var acertos = 0;
+
+			//Checagem
+			function validarForm() {
+				form1 = document.forms['form1'].elements['questao'];
+				form2 = document.forms['form2'].elements['questao'];
+                form3 = document.forms['form3'].elements['questao'];
+                form4 = document.forms['form4'].elements['questao'];
+                form5 = document.forms['form5'].elements['questao'];
+                form6 = document.forms['form6'].elements['questao'];
+				if (form1.value == 'b') {
+					acertos++;
+				}else{}
+
+				if (form2.value == 'a') {
+					acertos++;
+				}else{}
+
+				if (form3.value == 'd') {
+					acertos++;
+                }else{}
+                
+                if (form4.value == 'c') {
+					acertos++;
+                }else{}
+                
+                if (form5.value == 'b') {
+					acertos++;
+				}else{}
+
+                if (form6.value == 'a') {
+					acertos++;
+				}else{}
+
+                
+
+				document.getElementById('resultado').innerHTML = "Total de acertos: " + acertos + " de 6";
+
+				document.getElementById('botao').disabled = true;
+			}
+		</script>
+</div>    
+
+<footer id="rodape">
+    <p class="rodape">Site feito sem intenção lucrativa.</p>
+</footer>
+
+</body>
+    
+</html>
