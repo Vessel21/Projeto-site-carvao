@@ -34,7 +34,7 @@ nav#menu_carvao li{
 }
 
 nav#menu_carvao li:hover{
-    background-color: black;
+    background-color: grey;
 }
 
 nav#menu_carvao h1{
