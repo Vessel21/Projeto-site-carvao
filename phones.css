@@ -124,3 +124,9 @@ img.maior{
     height: auto;
 
 }
+
+body
+{
+    background-color: #0e1111 !important;
+    background-image: url(./images/carvao_fundo.png);
+}
