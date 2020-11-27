@@ -21,7 +21,7 @@ nav#menu_carvao ul{
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    top: 80px;
+    
     left: 0px;
 
 }
@@ -147,7 +147,7 @@ div#interface{
 img.entrada{
     height: auto;
     min-width: 100%;
-
+    
 }
 
 picture.centralizado{
@@ -167,7 +167,8 @@ img.grande{
 
 header#cabecalho{
     border-bottom: 1px white solid;
-    height: 120px;
+    display: flex;
+    flex-direction: row;
     position: relative;   
 
 

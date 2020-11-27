@@ -1,0 +1,126 @@
+/*Menu para celulares*/
+
+nav#menu_carvao{
+    display: block;
+ 
+}
+
+nav#menu_carvao ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 0px;
+
+}
+
+nav#menu_carvao li{
+    display: block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    background-color: black;
+}
+
+nav#menu_carvao li:hover{
+    background-color: grey;
+}
+
+nav#menu_carvao h1{
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+
+}
+
+nav#menu_carvao a{
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu_carvao a:hover{
+    color: white;
+
+}
+
+/*Fonte adptada para celulares*/
+header#cabecalho h1, h2{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+   
+}
+
+h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    line-height: 1.2;
+}
+
+ul{
+    list-style: square;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li.topico{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*Rodape adptado*/
+
+footer#rodape{
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background-color: #0e1111;
+    padding: 1px;
+}
+
+p.rodape{
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F8FF;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+p.legenda{
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*Imagens grandes e pequenas adptadas*/
+
+img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+
+img.maior{
+    max-width:440px;
+    max-height:340px;
+    width: auto;
+    height: auto;
+
+}
