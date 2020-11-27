@@ -25,13 +25,19 @@ edits2:
 4 - Foi alterado as fontes utilizadas (arquivo tela.css: linhas: 56-108)
 5 - Foi adicionado algumas bordas pretas na tabela que indica os integrantes (arquivo tela.css: linhas: 213-216)
 6 - Foi alterado alguns valores que estava na div#interface (arquivo tela.css: linhas: 214-221)
+7 - Foi adicionado o arquivo reset.css, que visa resetar o css para facilitar nas alterações do css original
+
 
 edits3:
 
 1 - Foi adicionado o arquivo questionario.html onde foi adicionado uma atividade utilizando forms como foi pedido no tópico 2.1 (arquivo questionario.html)
 2 - No arquivo sobre.html foi adicionado uma opção de sugestão finalizando assim o tópico 2.1 (arquivo sobre.html: linhas: 67-73)
 3 - Mudei a estrutura do menu visando facilitar o uso de media query
-4 - Adicionei o arquivo phones.css onde adapto o site para celulares
+4 - Adicionei o arquivo phones.css onde adapto o site para celulares, que se encontram apenas no arquivo index.html; economia.html e definicao.html
+
+
+Ponderação:
+1 - Não adicionei um arquivo para a opção de tablets como foi pedido, pois nos testes feitos com um tablet o site funcionava de maneira responsiva. Mas adicionei o "comando" que seria utilizado para adicionar, pois caso fosse adicionado, teria o mesmo valor já presente no arquivo tela.css. (Linhas do "comando": )
 
 **Integrantes:**
 1. Dorys	Maria Ferreira Alves 
