@@ -9,24 +9,25 @@
 
 }
 
+
+    
 nav#menu_carvao{
     display: block;
-
+ 
 }
 
 
 nav#menu_carvao ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: 10px;
-    left: 800px;
+    position: relative;
+    top: 80px;
+    left: 0px;
 
 }
 
 nav#menu_carvao li{
     display: inline-block;
-    
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
@@ -38,7 +39,11 @@ nav#menu_carvao li:hover{
 }
 
 nav#menu_carvao h1{
-    display: none;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
 
 }
 
@@ -130,12 +135,6 @@ div#interface{
     position: relative;
 }
 
-div#sobre{
-    min-width: 400;
-    margin: 10px auto 100px auto;
-    max-width: 1700px;
-    position: relative; 
-}
 
 /* Formatação de imagens*/
 
@@ -171,6 +170,7 @@ header#cabecalho{
     height: 120px;
     position: relative;   
 
+
 }
 
 header#cabecalho h1, h2{
@@ -180,12 +180,6 @@ header#cabecalho h1, h2{
    
 }
 
-header#cabecalho h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 20px;
-
-}
 
 header#cabecalho p{
     font-family: Arial, Helvetica, sans-serif;

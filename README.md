@@ -30,6 +30,7 @@ edits3:
 
 1 - Foi adicionado o arquivo questionario.html onde foi adicionado uma atividade utilizando forms como foi pedido no tópico 2.1 (arquivo questionario.html)
 2 - No arquivo sobre.html foi adicionado uma opção de sugestão finalizando assim o tópico 2.1 (arquivo sobre.html: linhas: 67-73)
+3 - Mudei a estrutura do menu visando facilitar o uso de media query
 
 **Integrantes:**
 1. Dorys	Maria Ferreira Alves 
