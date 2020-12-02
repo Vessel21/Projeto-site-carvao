@@ -69,18 +69,29 @@
 
 <br>
 <br>
-<form>
+<form name="sugestao" onsubmit="return validar()">
   <p>Tem alguma sugestão para melhorar o site?<br>
     <TEXTAREA style="margin-left: 20px;" rows="4" name="criticas" cols="40"></TEXTAREA></p>
     <input style="margin-left: 20px;" id="botao" type="submit" value="Enviar" onclick="validarForm()">
   </form>
   </div>
 
+  <script>
+  function validar(){
+  if(document.sugestao.criticas.value==""){
+  alert( "Escreva algo para enviar uma sugestão!" );
+  document.sugestao.criticas.focus();
+  return false;
+  }
+  }
+
+  </script>
+  
   <a href = "https://github.com/Vessel21/Projeto-site-carvao" target="_blank" style="color: white"> Link para o repositório do projeto.</a>
 
 <footer id="rodape">
         <p class="rodape">Site feito sem intenção lucrativa.</p>
-    </footer>
+</footer>
 
 </body>
 </html>

@@ -35,6 +35,11 @@ edits3:
 3 - Mudei a estrutura do menu visando facilitar o uso de media query
 4 - Adicionei o arquivo phones.css onde adapto o site para celulares, que se encontram apenas no arquivo index.html; economia.html e definicao.html
 
+edits4:
+
+1 - Foi adicionado algumas imagens que foram usadas para cirar "animações" no site.
+2 - Foi alterado na página inicial do site a introdução para se adaptar ao novo uso, sendo ele um pequeno "game". (arquivo index.html: linhas 38-62) 
+3 - Foi adicionado um sistema de verificação para não permitir que o usuário envie uma sugestão vazia. (arquivo sobre.html: linhas 79-89)
 
 Ponderação:
 1 - Não adicionei um arquivo para a opção de tablets como foi pedido, pois nos testes feitos com um tablet o site funcionava de maneira responsiva. Mas adicionei o "comando" que seria utilizado para adicionar, pois caso fosse adicionado, teria o mesmo valor já presente no arquivo tela.css. (Linhas do "comando": )
