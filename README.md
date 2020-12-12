@@ -41,6 +41,12 @@ edits4:
 2 - Foi alterado na página inicial do site a introdução para se adaptar ao novo uso, sendo ele um pequeno "game". (arquivo index.html: linhas 38-62) 
 3 - Foi adicionado um sistema de verificação para não permitir que o usuário envie uma sugestão vazia. (arquivo sobre.html: linhas 79-89)
 
+edits5:
+
+1- Foi adicionado no head das páginas questionario, index, cuidados e saude links para o bootsrap
+2- Foi adicionado o componente grid nos arquivos questionario, saude e cuidados (Embaixo dos headers)
+3- Foi adicionado múltiplos componentes do bootstrap no arquivo do questionário.
+
 Ponderação:
 1 - Não adicionei um arquivo para a opção de tablets como foi pedido, pois nos testes feitos com um tablet o site funcionava de maneira responsiva. Mas adicionei o "comando" que seria utilizado para adicionar, pois caso fosse adicionado, teria o mesmo valor já presente no arquivo tela.css. (Linhas do "comando": )
 

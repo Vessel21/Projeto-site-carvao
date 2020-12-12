@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
     <title>Questionário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" type="text/css" href="reset.css"/>
     <link rel="stylesheet" type="text/css" href="tela.css"/>
     <link rel = "icon" href="./images/carvao_img.png"> 
@@ -28,19 +30,23 @@
     </header>
 	<body>
         <br>
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-sm">
         <form name="form1">
 		<p>1)Qual a principal finalidade do uso do carvão mineral?</p>
 		<br>
-		<label><input type="radio" name="questao" value="a" id="a1" /> A) Churrasco</label>
+		<label class="form-check-label"><input class="form-check-input" type="radio" name="questao" value="a" id="a1" /> A) Churrasco</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="b" id="b1" /> B) Eletricidade</label>
+		<input class="form-check-input" type="radio" name="questao" value="b" id="b1" /> B) Eletricidade</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="c" id="c1" /> C) Produção de bijuterias</label>
+		<input class="form-check-input" type="radio" name="questao" value="c" id="c1" /> C) Produção de bijuterias</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="d" id="d1" /> D) Agroindústria</label>
+		<input class="form-check-input" type="radio" name="questao" value="d" id="d1" /> D) Agroindústria</label>
 		<br>
 		<br>
 		</form>
@@ -48,16 +54,16 @@
 		<form name="form2">
 		<p>2) Como o carvão é formado?</p>
 		<br>
-		<label><input type="radio" name="questao" value="a" id="a2" /> A) Por meio da decomposição da matéria orgânica sem a presença de oxigênio.</label>
+		<label><input class="form-check-input" type="radio" name="questao" value="a" id="a2" /> A) Por meio da decomposição da matéria orgânica sem a presença de oxigênio.</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="b" id="a2" /> B) Pode ser cultivado como uma plantação. </label>
+		<input class="form-check-input" type="radio" name="questao" value="b" id="a2" /> B) Pode ser cultivado como uma plantação. </label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="c" id="a2" /> C) Por meio da decomposição da matéria inorgânica sem a presença de oxigênio.</label>
+		<input class="form-check-input" type="radio" name="questao" value="c" id="a2" /> C) Por meio da decomposição da matéria inorgânica sem a presença de oxigênio.</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="d" id="a2" /> D) Surge em cavernas.</label>
+		<input class="form-check-input" type="radio" name="questao" value="d" id="a2" /> D) Surge em cavernas.</label>
 		<br>
 		<br>
 		</form>
@@ -65,33 +71,34 @@
 		<form name="form3">
 		<p>3) Qual é o país que produz mais carvão natural do mundo?</p>
 		<br>
-		<label><input type="radio" name="questao" value="a" id="a3" /> A) Estados Unidos</label>
+		<label><input class="form-check-input" type="radio" name="questao" value="a" id="a3" /> A) Estados Unidos</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="b" id="a3" /> B) Brasil</label>
+		<input class="form-check-input" type="radio" name="questao" value="b" id="a3" /> B) Brasil</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="c" id="a3" /> C) Japão</label>
+		<input class="form-check-input" type="radio" name="questao" value="c" id="a3" /> C) Japão</label>
 		<br>
 		<label>
-		<input type="radio" name="questao" value="d" id="a3" /> D) China</label>
+		<input class="form-check-input" type="radio" name="questao" value="d" id="a3" /> D) China</label>
 		<br>
 		<br>
 		</form>
-
-        <form name="form4">
+    </div>
+    <div class="col-sm">   
+    <form name="form4">
             <p>4) Para quais fins o carvão vegetal pode ser utilizado?</p>
             <br>
-            <label><input type="radio" name="questao" value="a" id="a3" /> A) Culinária</label>
+            <label><input class="form-check-input" type="radio" name="questao" value="a" id="a3" /> A) Culinária</label>
             <br>
             <label>
-            <input type="radio" name="questao" value="b" id="a3" /> B) Eletricidade</label>
+            <input class="form-check-input" type="radio" name="questao" value="b" id="a3" /> B) Eletricidade</label>
             <br>
             <label>
-            <input type="radio" name="questao" value="c" id="a3" /> C) Saúde e Estética</label>
+            <input class="form-check-input" type="radio" name="questao" value="c" id="a3" /> C) Saúde e Estética</label>
             <br>
             <label>
-            <input type="radio" name="questao" value="d" id="a3" /> D) Energéticos</label>
+            <input class="form-check-input" type="radio" name="questao" value="d" id="a3" /> D) Energéticos</label>
             <br>
             <br>
             </form>
@@ -99,16 +106,16 @@
             <form name="form5">
                 <p>5) Marque a alternativa que NÃO condiz com cuidados que devem ser tomados ao utilizar o carvão:</p>
                 <br>
-                <label><input type="radio" name="questao" value="a" id="a3" /> A) Não deixar perto de crianças.</label>
+                <label><input class="form-check-input" type="radio" name="questao" value="a" id="a3" /> A) Não deixar perto de crianças.</label>
                 <br>
                 <label>
-                <input type="radio" name="questao" value="b" id="a3" /> B) Não entrar em contato direto com as mãos.</label>
+                <input class="form-check-input" type="radio" name="questao" value="b" id="a3" /> B) Não entrar em contato direto com as mãos.</label>
                 <br>
                 <label>
-                <input type="radio" name="questao" value="c" id="a3" /> C) Não ingerir.</label>
+                <input class="form-check-input" type="radio" name="questao" value="c" id="a3" /> C) Não ingerir.</label>
                 <br>
                 <label>
-                <input type="radio" name="questao" value="d" id="a3" /> D) Não colocar nos olhos.</label>
+                <input class="form-check-input" type="radio" name="questao" value="d" id="a3" /> D) Não colocar nos olhos.</label>
                 <br>
                 <br>
                 </form>
@@ -116,23 +123,26 @@
             <form name="form6">
                     <p>6) Marque a alternativa que NÃO condiz com benefícios para a beleza do carvão vegetal:</p>
                     <br>
-                    <label><input type="radio" name="questao" value="a" id="a3" /> A) Eliminar marcas de sol da pele.</label>
+                    <label><input class="form-check-input" type="radio" name="questao" value="a" id="a3" /> A) Eliminar marcas de sol da pele.</label>
                     <br>
                     <label>
-                    <input type="radio" name="questao" value="b" id="a3" /> B) Higiene bucal.</label>
+                    <input class="form-check-input" type="radio" name="questao" value="b" id="a3" /> B) Higiene bucal.</label>
                     <br>
                     <label>
-                    <input type="radio" name="questao" value="c" id="a3" /> C) Controlar oleosidade.</label>
+                    <input class="form-check-input" type="radio" name="questao" value="c" id="a3" /> C) Controlar oleosidade.</label>
                     <br>
                     <label>
-                    <input type="radio" name="questao" value="d" id="a3" /> D) Dar brilho ao cabelo.</label>
+                    <input class="form-check-input" type="radio" name="questao" value="d" id="a3" /> D) Dar brilho ao cabelo.</label>
                     <br>
                     <br>
                     </form>
-                    <input id="botao" type="submit" value="Enviar" onclick="validarForm()">
+                    <button class="btn btn-lg btn-dark" id="botao" onclick="validarForm()"> Enviar </button>
                     <br>
                     <p id="resultado"></p>
+                </div>
             
+                </div>
+                </div>
 
 		<script type="text/javascript">
 			//Variaveis
